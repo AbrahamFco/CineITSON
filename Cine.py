@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox, simpledialog
 
-class CineVIP:
+class Cine:
     def __init__(self, raiz):
         self.raiz = raiz
         self.raiz.title("Cine ITSON")
@@ -109,5 +109,5 @@ class CineVIP:
 
 if __name__ == "__main__":
     raiz = tk.Tk()
-    app = CineVIP(raiz)
+    app = Cine(raiz)
     raiz.mainloop()
